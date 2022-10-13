@@ -1,0 +1,176 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 150%;
+  background: #E5E5E5;
+  color: #485268;
+}
+
+strong{
+  font-weight: 500;
+}
+
+.page{
+  width: 595px;
+  margin: 0 auto;
+}
+
+/* #region about */
+.about{
+  display: flex;
+  padding: 32px 40px 24px;
+  background: #E25544;
+  color: white;
+}
+
+.about_name{
+  margin: 0 0 8px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.about_role{
+  margin: 0 0 8px;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.about_text{
+  margin: 0;
+}
+
+.about_photo{
+  width: 114px;
+  height: 130px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+/* #endregion */
+
+.main{
+  padding: 0 40px;
+  background-color: white;
+}
+
+/* #region contacts */
+.contacts{
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+.contacts_link{
+  text-decoration: none;
+  color: #485268;
+}
+/* #endregion */
+
+/* #region info */
+.info{
+  border-top: 1px solid #DEE2ED;
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info_title{
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #E25544;
+}
+
+.info_content{
+  width: 360px;
+}
+/* #endregion */
+
+/* #region job */
+.job{
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+}
+
+.job_title{
+  margin: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: capitalize;
+}
+
+.job_description{
+  margin: 0;
+  margin-top: 8px;
+}
+/* #endregion */
+
+/* #region study */
+.study{
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+}
+
+.study_title{
+  margin: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: capitalize;
+}
+
+.study_description{
+  margin: 0;
+  margin-top: 8px;
+}
+/* #endregion */
+
+/* #region skills */
+.skills{
+  display: flex;
+}
+
+.skills_list{
+  box-sizing: border-box;
+  width: 50%;
+  margin: 0;
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+  list-style: none;
+}
+
+.skills_item{
+  margin-top: 8px;
+}
+
+.skills_item:first-child{
+  margin: 0;
+}
+/* #endregion */
+
+/* #region tools */
+.tools {
+  display: flex;
+}
+
+.tools_list {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 0;
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+  list-style: none;
+}
+
+.tools_item {
+  margin-top: 8px;
+}
+
+.tools_item:first-child {
+  margin: 0;
+}
+/* #endregion */
